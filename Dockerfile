@@ -4,7 +4,7 @@ RUN apk add --no-cache git
 
 RUN git clone https://github.com/JonnycatMeow/codingisfun.git
 
-WORKDIR /zypher-deploy-docker
+WORKDIR /codingisfun
 
 RUN npm install
 
