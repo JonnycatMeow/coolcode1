@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone --depth=1 https://github.com/JonnycatMeow/codingisfun.git
+RUN git clone --depth=1 https://github.com/Templates-dude/inenter.git
 
-WORKDIR /codingisfun
+WORKDIR /inenter
 
 RUN npm install
 
